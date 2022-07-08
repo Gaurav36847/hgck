@@ -1,0 +1,29 @@
+@media (max-width:1065px){
+    .adv{
+        display: none;
+    }
+    #leftContainer img{
+        display: none;
+    }
+    #rightContainer img{
+        display: none;
+    }
+    #middleContainer{
+        width:100%
+    }
+}
+
+@media (max-width:533px){
+    .navigations{
+        /* height: 28vh; */
+        height: auto;
+        align-items: center;
+    }
+
+    .ulclass{
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        margin-bottom: 3%;
+    }
+}

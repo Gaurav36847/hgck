@@ -1,0 +1,167 @@
+/*-------------------------- Utility Classes------------------------------ */
+
+.Flx{
+    display: flex;
+}
+
+
+
+#logoContainer{
+    color: rgb(24, 234, 35);
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbarTop{
+    /* background-color:rgb(228, 4, 4); */
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    
+}
+
+.navigations{
+    flex-direction: column;
+    background-color:rgb(184, 0, 0);
+}
+
+.navigations h1{
+    font-size: 2.5rem;
+    margin-left: 8%;
+    margin-bottom: 0;
+    color: white;
+}
+
+#logo{
+    height: 8vh;
+    display: block;
+    margin: auto;
+}
+
+
+
+.ulclass{
+    height: 6vh;
+    margin-left: 5%;
+
+    /* width: 100%; */
+    /* justify-content: center; */
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.ulclass a{
+    color: white;
+   text-decoration: none;
+   padding: 0 1rem 0.45rem 1rem;
+}
+
+.ulclass a:hover{
+    border-bottom: 4px solid #fff;
+}
+
+
+/* -----------------------------------Add Section-----------------------------------*/
+
+.adv{
+    background-color: #eeeeee;
+    height: 36vh;
+    /* height: auto; */
+}
+
+.adv p{
+    margin-left: 71%;
+    margin-bottom: 0;
+}
+
+.adv img{
+    display: block;
+    margin: auto;
+    height: 30vh;
+}
+
+/*--------------------------------------Main Section-----------------------------*/
+
+.mainSection{
+    box-sizing: border-box;
+}
+
+#leftContainer{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#middleContainer{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    flex-wrap: wrap;
+}
+
+#rightContainer{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
